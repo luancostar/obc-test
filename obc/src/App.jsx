@@ -1,16 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import Title from "./Title"
-import { Subtitle } from "./Subtitle"
-import StatusText from "./StatusText"
+
+import Card from "./components/Card/Card.jsx"
 
 export default function App() {
 
   return (
     <div>
-      <Title/>
-      <Subtitle/>
-      <StatusText/>
-
+      <Card/>
     </div>
   )
 }
