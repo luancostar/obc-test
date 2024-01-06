@@ -1,3 +1,4 @@
+import poster from "./../../assets/poster.jpg"
 
 export default function Card() {
     return (
@@ -11,7 +12,7 @@ export default function Card() {
      <div className="container">
         <div className="contents">
             <div className="content--1">
-             <img className="img--content" src="https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" alt="" />
+             <img className="img--content"  src={poster} />
             </div>
             <div className="content--2">
                 <h2>Pôster: Alien (1979)</h2>
